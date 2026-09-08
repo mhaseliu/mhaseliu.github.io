@@ -337,6 +337,21 @@ li {
     text-align: center;
 }
 
+.pub-preview--formula {
+    padding: 0.35rem;
+    font-size: 0.9rem;
+}
+
+.pub-preview--formula mjx-container {
+    margin: 0 !important;
+    max-width: 100%;
+}
+
+.pub-preview--formula mjx-container svg {
+    max-width: 100%;
+    height: auto;
+}
+
 .pub-title {
     margin-bottom: 0.12rem;
     font-weight: 700;

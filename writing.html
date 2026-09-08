@@ -6,6 +6,13 @@
     <meta name="description" content="Research papers and expository writing by Matthew Hase-Liu.">
     <title>Publications · Matthew Hase-Liu</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        window.MathJax = {
+            tex: { inlineMath: [['\\(', '\\)']] },
+            svg: { fontCache: 'global' }
+        };
+    </script>
+    <script defer id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
     <script defer src="site.js"></script>
 </head>
 <body>
@@ -14,7 +21,7 @@
             <nav class="sidebar-container">
                 <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open navigation"><span></span><span></span><span></span></button>
                 <h3><a href="index.html">home</a></h3>
-                <h3><a href="writing.html" aria-current="page">publications</a></h3>
+                <h3><a href="writing.html" aria-current="page">writing</a></h3>
                 <h3><a href="seminars.html">seminars</a></h3>
                 <h3><a href="teaching.html">teaching</a></h3>
                 <h3><a href="https://github.com/mhaseliu">github</a></h3>
@@ -30,13 +37,13 @@
                 <ol class="bibliography">
                     <li>
                         <article class="publication-entry">
-                            <div class="pub-preview" aria-hidden="true">H<sup>*</sup><sub>c</sub></div>
+                            <div class="pub-preview pub-preview--formula" aria-hidden="true">\(\displaystyle \sum_i H_c^i(-, \mathbb{Q}_\ell)\)</div>
                             <div>
                                 <div class="pub-title">Betti bounds for spaces of curves on varieties and Manin's conjecture for quartic del Pezzo surfaces</div>
                                 <div class="pub-authors">Enhao Feng and <em>Matthew Hase-Liu</em></div>
                                 <div class="pub-periodical">Aug 2026</div>
                                 <div class="pub-actions">
-                                    <details class="abstract"><summary>Abs</summary><div class="abstract-body"><p>Proves uniform exponential bounds for compactly supported Betti numbers of spaces of maps from fixed-genus curves to projective varieties. As an application, establishes a higher-genus function-field version of Manin's conjecture for split quartic del Pezzo surfaces.</p></div></details>
+                                    <details class="abstract"><summary>Abs</summary><div class="abstract-body"><p>Proves uniform exponential bounds for compactly supported Betti numbers of spaces of maps from fixed-genus curves to projective varieties. As an application, establishes a higher genus function field version of Manin's conjecture for split quartic del Pezzo surfaces.</p></div></details>
                                     <a class="pub-button" href="https://arxiv.org/abs/2608.28465">arXiv</a>
                                 </div>
                             </div>
@@ -44,7 +51,7 @@
                     </li>
                     <li>
                         <article class="publication-entry">
-                            <div class="pub-preview" aria-hidden="true">B(q)</div>
+                            <div class="pub-preview pub-preview--formula" aria-hidden="true">\(n > 2d(d-1)\)</div>
                             <div>
                                 <div class="pub-title">Birch's theorem over function fields with quadratically many variables</div>
                                 <div class="pub-authors"><em>Matthew Hase-Liu</em></div>
@@ -62,7 +69,7 @@
                 <ol class="bibliography">
                     <li>
                         <article class="publication-entry">
-                            <div class="pub-preview" aria-hidden="true">M̅</div>
+                            <div class="pub-preview pub-preview--formula" aria-hidden="true">\(a\!\left(Y,-K_X\!\rvert_Y\right) < 1\)</div>
                             <div>
                                 <div class="pub-title">A converse to geometric Manin's conjecture for general low degree hypersurfaces</div>
                                 <div class="pub-authors"><em>Matthew Hase-Liu</em></div>
@@ -80,7 +87,7 @@
                 <ol class="bibliography">
                     <li>
                         <article class="publication-entry">
-                            <div class="pub-preview" aria-hidden="true">J∞</div>
+                            <div class="pub-preview pub-preview--formula" aria-hidden="true">\(J_m\!\left(\operatorname{Mor}(C,X)\right)\)</div>
                             <div>
                                 <div class="pub-title">Terminal singularities of the moduli space of curves on low degree hypersurfaces and the circle method</div>
                                 <div class="pub-authors">Jakob Glas and <em>Matthew Hase-Liu</em></div>
@@ -95,7 +102,7 @@
                     </li>
                     <li>
                         <article class="publication-entry">
-                            <div class="pub-preview" aria-hidden="true">M<sub>g</sub></div>
+                            <div class="pub-preview pub-preview--formula" aria-hidden="true">\(\operatorname{Sing}\!\left(\operatorname{Mor}(C,X)\right)\)</div>
                             <div>
                                 <div class="pub-title">Non-smoothness of moduli spaces of higher genus curves on low degree hypersurfaces</div>
                                 <div class="pub-authors">Amal Mattoo and <em>Matthew Hase-Liu</em></div>
@@ -109,7 +116,7 @@
                     </li>
                     <li>
                         <article class="publication-entry">
-                            <div class="pub-preview" aria-hidden="true">L(s)</div>
+                            <div class="pub-preview pub-preview--formula" aria-hidden="true">\(\operatorname{IC}_{\mathcal{L}_{\chi}(F)}\)</div>
                             <div>
                                 <div class="pub-title">A geometric approach to functional equations for general multiple Dirichlet series over function fields</div>
                                 <div class="pub-authors"><em>Matthew Hase-Liu</em></div>
@@ -123,7 +130,7 @@
                     </li>
                     <li>
                         <article class="publication-entry">
-                            <div class="pub-preview" aria-hidden="true">Σ</div>
+                            <div class="pub-preview pub-preview--formula" aria-hidden="true">\(\operatorname{Mor}(C,X)\)</div>
                             <div>
                                 <div class="pub-title">A higher genus circle method and an application to geometric Manin's conjecture</div>
                                 <div class="pub-authors"><em>Matthew Hase-Liu</em></div>
@@ -141,7 +148,7 @@
                 <ol class="bibliography">
                     <li>
                         <article class="publication-entry">
-                            <div class="pub-preview" aria-hidden="true">A+A</div>
+                            <div class="pub-preview pub-preview--formula" aria-hidden="true">\(\max\!\left(\lvert A+A\rvert, \lvert AA\rvert\right)\)</div>
                             <div>
                                 <div class="pub-title">Sum-product phenomena for planar hypercomplex numbers</div>
                                 <div class="pub-authors">Adam Sheffer and <em>Matthew Hase-Liu</em></div>
