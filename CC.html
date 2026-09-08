@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    	<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+        <title>Chabauty–Coleman's method (Fall 2025)</title>
+        <meta
+            http-equiv="content-type"
+            content="application/xhtml+xml; charset=UTF-8"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="style.css"
+        />
+        <script defer src="site.js"></script>
+</head>
+    <body>
+        <!-- main-wrapper -->
+        <div id="main-wrapper" class="container_12">
+            <!-- header -->
+            <div id="header">
+                <div id="logo" class="grid_6">
+                    <!-- <p class="title"><a href="#">Welcome....</a></p>-->
+                </div>
+            </div>
+            <!-- end of header -->
+            <!-- sidebar -->
+            <div id="sidebar" class="grid_2">
+                <div class="sidebar-container">
+                <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open navigation"><span></span><span></span><span></span></button>
+                    <h3><a href="index.html">home</a></h3>
+                    <h3><a href="seminars.html" aria-current="page">seminars</a></h3>
+                    <h3><a href="teaching.html">teaching</a></h3>
+                    <h3><a href="writing.html">publications</a></h3>
+                    <h3><a href="https://github.com/mhaseliu">github</a></h3>
+                    <h3><a href="Docs/Hase-Liu_Academic_CV.pdf">academic cv</a></h3>
+                    <h3><a href="Docs/Hase-Liu_Resume.pdf">resume</a></h3>
+                    <button class="theme-toggle" type="button" aria-label="Use dark theme" title="Use dark theme">◐</button>
+                </div>
+            </div>
+            <!-- end of sidebar -->
+
+            <!-- content -->
+            <div id="content" class="grid_8">
+                <h1>Chabauty–Coleman's method</h1>
+               	<p> Organized by Vidhu Adhihetty and Matthew Hase-Liu</p>
+                <p>	
+                    For a nice curve defined over a number field with genus at least two, understanding its set of rational points is a fundamental problem in arithmetic geometry. Faltings famously proved that this set is finite, but his proof is ineffective, i.e. he did not provide an algorithm to compute the rational points. This learning seminar will focus on the ideas surrounding the method of Chabauty and Coleman, which gives an explicit strategy for computing rational points on curves whose Jacobian has low rank. We will also discuss variants and generalizations, such as non-abelian Chabauty, quadratic Chabauty, and Chabauty–Coleman for surfaces, as well as applications to arithmetic statistics (e.g. the work of Poonen–Stoll) and Mazur’s Program B.
+                    </p> 
+                 <p>We will follow parts of "p-adic approaches to rational and integral points on curves" by Poonen, "The method of Chabauty and Coleman" by McCallum–Poonen, "Abelian Chabauty" by Zureick-Brown, Kim's lecture notes on the foundations of non-abelian Chabauty, "Most odd degree hyperelliptic curves have only one rational point" by Poonen–Stoll, "Geometric quadratic Chabauty" by Edixhoven–Lido, "Computational tools for quadratic Chabauty" by Balakrishnan–Müller (many references from the corresponding Arizona Winter School), and "A Chabauty-Coleman bound for surfaces" by Caro–Pasten.</p>  
+                </p>
+		<div class="recent-posts">
+                    <h1>References</h1>
+                    <p>
+                        Here is a list of the references used in the seminar:
+                    </p>
+                    <ol>
+                    <ul>
+                        <li>
+                            [Poo20], <a href="https://math.mit.edu/~poonen/papers/p-adic_approach.pdf">p-adic approaches to rational and integral points on curves</a>
+                            [TBD], TBD
+                        </li>
+                        
+                    </ul>
+                    </ol>
+                </div>
+                    
+                <div class="recent-posts">
+                    <h1>Schedule</h1>
+                    <p>
+                        We meet on Wednesday from 4:30 to 5:30 in Room 622.
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Date</th>
+                            <th>Speaker</th>
+                            <th>Abstract</th>
+                            <th>References</th>
+                        </tr>
+                        <tr>
+                            <td>09/10</td>
+                            <td>Matthew Hase-Liu</td>
+                            <td><strong>Overview of seminar and introduction to Chabauty–Coleman:</strong> This will mainly be an organizational meeting where we list out the topics and distribute talks. Time-permitting, I will begin explaining the overall strategy.</td>
+                            <td>
+                                <a href="Docs/CC.pdf">Notes</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>09/17</td>
+                            <td>Vidhu Adhihetty</td>
+                            <td><strong>Coleman Integration:</strong> This week, we will develop the theory of Coleman integration on rigid varieties and see how it helps us prove finiteness statements for rational points on curves.</td>
+                            <td>
+                                <a href="Docs/Coleman%20Integration%20Talk%20Notes.pdf">Notes</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>09/24</td>
+                            <td>Vidhu Adhihetty</td>
+                            <td><strong>Explicit examples of effective point-counts via Chabauty-Coleman:</strong> We will wrap up our discussion of the Coleman integral and how it relates to and improves upon Chabauty's original idea. Afterwards, we will apply these ideas to get at effective point counts for explicit curves</td>
+                            <td>
+                                <a href="https://math.mit.edu/~poonen/papers/chabauty.pdf">Notes</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10/01</td>
+                            <td>Matthew Hase-Liu</td>
+                            <td><strong>Most odd degree hyperelliptic curves have only one rational point:</strong> We will discuss Poonen-Stoll's theorem that a positive fraction of odd degree hyperelliptic curves have only one rational point, and moreover that this fraction tends to 1 as the genus tends to infinity.</td>
+                            <td>
+                                <a href="https://math.mit.edu/~poonen/papers/chabauty.pdf">Notes</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10/08</td>
+                            <td>Ethan Bottomley-Mason </td>
+                            <td><strong>Nonabelian Chabauty:</strong> We understand the Chabauty method intrinsically in terms of the curve itself rather than the Jacobian. This extracts the essential information that the Jacobian provided and allows for generalizations of the method. We will see this via embeddings into semiabelian varieties and by utilizing non-abelian pro-p quotients of the fundamental group.</td>
+                            <td>
+                                <a href="https://math.mit.edu/~poonen/papers/chabauty.pdf">Notes</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10/15</td>
+                            <td>Vidhu Adhihetty</td>
+                            <td><strong>Nonabelian Integration:</strong> Continuing from last week's talk, we explore how to intrinsically recover the integration map from our curve.</td>
+                            <td>
+                                <a href="https://math.mit.edu/~poonen/papers/chabauty.pdf">Notes</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10/22</td>
+                            <td>Vidhu Adhihetty</td>
+                            <td><strong>Comparing the Chabauty-Kim method to Lawrence-Venkatesh:</strong> We give a rough outline of how the Lawrence-Venkatesh approach to Faltings' theorem works, and compare the approach to the Chabauty-Kim method which we developed over the course of the past few sessions.</td>
+                            <td>
+                                <a href="https://math.mit.edu/~poonen/papers/chabauty.pdf">Notes</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10/29</td>
+                            <td>Vidhu Adhihetty</td>
+                            <td><strong>On torsion in elliptic curves via Chabauty-Coleman:</strong> We discuss a proof of a result towards uniform bounds on torsion for elliptic curves over number fields, using the Chabauty-Coleman method. We also discuss the study of rational points on certain modular curves and how that relates to certain open problems of interest.</td>
+                            <td>
+                                <a href="https://www.ams.org/journals/proc/1999-127-10/S0002-9939-99-05125-4/S0002-9939-99-05125-4.pdf">Notes</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>11/05</td>
+                            <td>Vidhu Adhihetty</td>
+                            <td><strong>Revisiting Kim's Method:</strong> We will revisit Kim's method and specifically try to understand the behaviour of Kim's 'Selmer varieties' as well as the Kummer maps and see how that allows us to bound rational points on hyperbolic curves. We will also try to understand how the Bloch-Kato conjectures enter into the discussion.</td>
+                            <td>
+                                <a href="https://www.ams.org/journals/proc/1999-127-10/S0002-9939-99-05125-4/S0002-9939-99-05125-4.pdf">Notes</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>11/12</td>
+                            <td>Vidhu Adhihetty/Pierre Deligne</td>
+                            <td><strong>What is the Hodge conjecture?:</strong> The Hodge conjecture is about projective non-singular complex algebraic varieties. It characterizes the cohomology classes coming from algebraic cycles. I will explain these terms, tell why the conjecture is so hard to attack, and why we care.</td>
+                            <td>
+                                <a href="https://www.ams.org/journals/proc/1999-127-10/S0002-9939-99-05125-4/S0002-9939-99-05125-4.pdf">Notes</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>11/19</td>
+                            <td>Ethan Bottomley-Mason</td>
+                            <td><strong>Etale fundamental groups and pro-unipotent completions:</strong> We review the formalism needed to define étale fundamental groups and compute the group for examples for varieties that arise in the Chabauty-Kim method. We will construct the pro-unipotent completions and compute the Qp pro-unipotent completion of the etale fundamental group for pertinent examples.
+</td>
+                            <td>
+                                <a href="https://www.ams.org/journals/proc/1999-127-10/S0002-9939-99-05125-4/S0002-9939-99-05125-4.pdf">Notes</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- end of content -->
+            <!-- sidebar -->
+
+            <div class="clear"></div>
+        </div>
+        <!-- end of main-wrapper -->
+        <footer class="site-footer">
+        <div class="site-footer-inner"><span>© 2026 Matthew Hase-Liu. Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.</span></div>
+    </footer>
+</body>
+</html>

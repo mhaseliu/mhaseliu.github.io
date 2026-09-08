@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    	<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+        <title>Abelian reasons and a variety of reasons to care about abelian varieties (Spring 2022)</title>
+        <meta
+            http-equiv="content-type"
+            content="application/xhtml+xml; charset=UTF-8"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="style.css"
+        />
+        <script defer src="site.js"></script>
+</head>
+    <body>
+        <!-- main-wrapper -->
+        <div id="main-wrapper" class="container_12">
+            <!-- header -->
+            <div id="header">
+                <div id="logo" class="grid_6">
+                    <!-- <p class="title"><a href="#">Welcome....</a></p>-->
+                </div>
+            </div>
+            <!-- end of header -->
+            <!-- sidebar -->
+            <div id="sidebar" class="grid_2">
+                <div class="sidebar-container">
+                <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open navigation"><span></span><span></span><span></span></button>
+                    <h3><a href="index.html">home</a></h3>
+                    <h3><a href="seminars.html" aria-current="page">seminars</a></h3>
+                    <h3><a href="teaching.html">teaching</a></h3>
+                    <h3><a href="writing.html">publications</a></h3>
+                    <h3><a href="https://github.com/mhaseliu">github</a></h3>
+                    <h3><a href="Docs/Hase-Liu_Academic_CV.pdf">academic cv</a></h3>
+                    <h3><a href="Docs/Hase-Liu_Resume.pdf">resume</a></h3>
+                    <button class="theme-toggle" type="button" aria-label="Use dark theme" title="Use dark theme">◐</button>
+                </div>
+            </div>
+            <!-- end of sidebar -->
+
+            <!-- content -->
+            <div id="content" class="grid_8">
+                <h1>Abelian reasons and a variety of examples to care about abelian varieties</h1>
+               	<p> Organized by Matthew Hase-Liu </p>
+                <p>
+                    The seminar will begin by covering the basic algebraic theory of abelian varieties from a scheme-theoretic perspective (though we will briefly mention some of the analytic aspects). The rest of the seminar will be dedicated to derived aspects of abelian varieties, such as the applications of the Fourier-Mukai transform to classical results.
+                </p>
+                <p>
+                    Some (very) rough notes of the seminar are <a href="Docs/AbVar.pdf">here</a>. 
+                </p>
+                <div class="recent-posts">
+                    <h1>References</h1>
+                    <p>
+                        Here are some excellent general references we may use in the seminar:
+                    </p>
+                    <ol>
+                    <ul>
+                        <li>
+                            David Mumford, <a href="https://wstein.org/edu/Fall2003/252/references/mumford-abvar/Mumford-Abelian_Varieties.pdf">Abelian Varieties.</a>
+                        </li>
+                        <li>
+                            Bas Edixhoven, Gerard van der Geer, and Ben Moonen,
+                            <a href="http://van-der-geer.nl/~gerard/AV.pdf">Abelian Varieties.</a>
+                        </li>
+                        <li>
+                            James S. Milne, <a href="https://www.jmilne.org/math/CourseNotes/AV.pdf">Abelian Varieties.</a>
+                        </li>
+                        <li>
+                            Brian Conrad with notes by Tony Feng,
+                            <a href="http://math.stanford.edu/~conrad/249CS15Page/handouts/abvarnotes.pdf">Math 249C: Abelian Varieties.</a>
+                        </li>
+                        <li>
+                            Bhargav Bhatt with notes by Matt Stevenson,
+                            <a href="http://www-personal.umich.edu/~stevmatt/abelian_varieties.pdf">
+                                Math 731: Topics in Algebraic Geometry I –
+                                Abelian Varieties.</a
+                            >
+                        </li>
+                    </ul>
+                    </ol>
+                </div>
+                <div class="recent-posts">
+                    <h1>Schedule</h1>
+                    <p>
+                        We meet on Thursdays from 5:40 to 7:00 in Room 507.
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Date</th>
+                            <th>Speaker</th>
+                            <th>Abstract</th>
+                            <th>References</th>
+                        </tr>
+                        <tr>
+                            <td>01/27</td>
+                            <td>Matthew Hase-Liu</td>
+                            <td><strong>Introduction and organization:</strong> We will first give a brief overview of the planned topics of the seminar. Then, we will state some facts about group schemes, state the definition of an abelian variety/scheme, provide some motivation for the commutativity of abelian varieties over \(\mathbb{C}\), and then begin discussing the rigidity theorem.</td>
+                            <td>
+                                [§4, Mumford], [§1-2, Bhatt]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02/03</td>
+                            <td>Matthew Hase-Liu</td>
+                            <td><strong>Commutativity and differential properties:</strong> We will complete the proof that abelian schemes \(A/S\) are commutative \(S\)-groups. Then, we will discuss differential properties, which will help us better understand the geometry of abelian varieties.</td>
+                            <td>
+                                [§4, Mumford], [§2-3, Bhatt]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02/10</td>
+                            <td>Matthew Hase-Liu</td>
+                            <td><strong>Cohomology and base change:</strong> We will begin by reviewing some properties of cohomology and base change, including flat base change and the semicontinuity theorem. We will then apply these tools to see when line bundles are pulled back from the base (the seesaw theorem), the "quadratic nature" of the Picard functor (the theorem of the cube), and applications to abelian varieties.</td>
+                            <td>
+                                [§5-6, Mumford], [§4-6, Bhatt], [§3, Conrad]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02/17</td>
+                            <td>Matthew Hase-Liu</td>
+                            <td><strong>Projectivity of abelian varieties:</strong> We will continue discussing the theorem of the cube and see some applications to abelian varieties. In particular, the theorem of the square will motivate the existence of dual abelian varieties. After introducing some important constructions, such as the Mumford bundle and the Picard functor, we will prove that abelian varieties are projective.</td>
+                            <td>
+                                [§6-7, Mumford], [§9-11, Bhatt]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02/24</td>
+                            <td>Matthew Hase-Liu</td>
+                            <td><strong>Embeddings and torsion subgroups:</strong> Blackboxing some facts about Chern classes, we will prove that abelian varieties of dimension \(g\) cannot be embedded into projective \((2g-1)\)-space. Then, we will discuss the structure of torsion subgroups of abelian varieties over algebraically closed fields.</td>
+                            <td>
+                                [§2 and §5, EvdGM], [§11-12, Bhatt]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>03/10</td>
+                            <td>Matthew Hase-Liu</td>
+                            <td><strong>The dual abelian variety:</strong> We will begin discussing the dual abelian variety following Mumford's approach. Given an abelian variety \(A\), the dual is roughly the solution of the moduli problem associating to each \(k\)-scheme \(T\) a family of degree zero line bundles parametrized by \(T\). We will see that the representing object (i.e. the dual abelian variety) has a remarkably simple description as the "quotient" \(A/K(L)\). To make sense of this, we will appeal (likely without proof) to the theory of quotients of schemes by group actions.</td>
+                            <td>
+                                [§4, EvdGM], [§12-14, Bhatt]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>03/24</td>
+                            <td>Matthew Hase-Liu</td>
+                            <td><strong>Constructing the dual abelian variety and Fourier-Mukai transforms:</strong> We will construct the dual abelian variety following Mumford's approach, concluding our discussion from last time. Along the way, we will compute the cohomology of the Poincare bundle, as well as the cohomology of the structure sheaf of an abelian variety. This will naturally lead us to Fourier-Mukai transforms, and we will state the famous Fourier-Mukai equivalence \(D(A)\cong D(A^t)\) for an abelian variety \(A\) and its dual \(A^t\).</td>
+                            <td>
+                                [§9, EvdGM], [§13, Mumford], [§15-16, Bhatt]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>03/31</td>
+                            <td>Matthew Hase-Liu</td>
+                            <td><strong>The Fourier-Mukai equivalence:</strong> We will restate the Fourier-Mukai equivalence from last time. Then, we will prove it.</td>
+                            <td>
+                                [§17-18, Bhatt]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>04/07</td>
+                            <td>Matthew Hase-Liu</td>
+                            <td><strong>Cohomology of ample line bundles:</strong> We will discuss which line bundles \(L\) give rise to finite \(K(L)\). We will then compute the cohomology of such line bundles using the machinery of the Fourier-Mukai transform that we have developed so far.</td>
+                            <td>
+                                [§19-20, Bhatt]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>04/14</td>
+                            <td>Matthew Hase-Liu</td>
+                            <td><strong>Atiyah's classification of vector bundles on elliptic curves:</strong> Using the Fourier-Mukai equivalence, we will explain a simplification of Atiyah's original paper ("Vector bundles over an elliptic curve"). To build up to the proof, we will also review the notions of (semi-)stability of a vector bundle and the Harder-Narasimhan filtration. In particular, Atiyah's theorem describes an equivalence between the category of semistable vector bundles on an elliptic curve (of given slope) with the category of torsion coherent sheaves.</td>
+                            <td>
+                                [§20-21, Bhatt]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>04/21</td>
+                            <td>Matthew Hase-Liu</td>
+                            <td><strong>Symmetric powers of curves and Jacobians:</strong> We will first describe a few important constructions—the Picard scheme, the Albanese, symmetric powers of curves, and the Jacobian—and see how they are related to each other. Then, we will say a bit about Hacon's work on generic vanishing and Beilinson-Polishchuk's work on the Torelli theorem via Fourier-Mukai transforms. </td>
+                            <td>
+                                [§22-26, Bhatt], [§III.2-6, Milne]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>05/12</td>
+                            <td>Caleb Ji</td>
+                            <td><strong>(Bonus talk) There is no abelian scheme over \(\mathbb{Z}\):</strong> Fontaine gave two proofs that there is no abelian scheme over \(\mathbb{Z}\), or equivalently, that there is no abelian variety over \(\mathbb{Q}\) with good reduction everywhere. His first proof came from a careful study of the ramification of finite flat group schemes, while his second used \(p\)-adic Hodge theory.  In this talk we give an outline of his second proof, assuming results of \(p\)-adic Hodge theory and certain ramification bounds.</td>
+                            <td>
+                              
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- end of content -->
+            <!-- sidebar -->
+
+            <div class="clear"></div>
+        </div>
+        <!-- end of main-wrapper -->
+        <footer class="site-footer">
+        <div class="site-footer-inner"><span>© 2026 Matthew Hase-Liu. Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.</span></div>
+    </footer>
+</body>
+</html>

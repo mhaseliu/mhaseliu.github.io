@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    	<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+        <title>Fundamental groups and Grothendieck's Galois theory (Spring 2023)</title>
+        <meta
+            http-equiv="content-type"
+            content="application/xhtml+xml; charset=UTF-8"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="style.css"
+        />
+        <script defer src="site.js"></script>
+</head>
+    <body>
+        <!-- main-wrapper -->
+        <div id="main-wrapper" class="container_12">
+            <!-- header -->
+            <div id="header">
+                <div id="logo" class="grid_6">
+                    <!-- <p class="title"><a href="#">Welcome....</a></p>-->
+                </div>
+            </div>
+            <!-- end of header -->
+            <!-- sidebar -->
+            <div id="sidebar" class="grid_2">
+                <div class="sidebar-container">
+                <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open navigation"><span></span><span></span><span></span></button>
+                    <h3><a href="index.html">home</a></h3>
+                    <h3><a href="seminars.html">seminars</a></h3>
+                    <h3><a href="teaching.html" aria-current="page">teaching</a></h3>
+                    <h3><a href="writing.html">publications</a></h3>
+                    <h3><a href="https://github.com/mhaseliu">github</a></h3>
+                    <h3><a href="Docs/Hase-Liu_Academic_CV.pdf">academic cv</a></h3>
+                    <h3><a href="Docs/Hase-Liu_Resume.pdf">resume</a></h3>
+                    <button class="theme-toggle" type="button" aria-label="Use dark theme" title="Use dark theme">◐</button>
+                </div>
+            </div>
+            <!-- end of sidebar -->
+
+            <!-- content -->
+            <div id="content" class="grid_8">
+                <h1>Fundamental groups and Grothendieck's Galois theory</h1>
+               	<p> Organized by Matthew Hase-Liu </p>
+               	<p> <a href="https://www.youtube.com/watch?v=PVAvXb8jqZE">Advertisement for class</a></p>
+                <p>
+                The main goal of this seminar is to introduce different incarnations of the fundamental group and understand how they are related to each other. Historically, mathematicians noticed similar properties of fundamental groups (in topology) and Galois groups; for instance, there is a topological analogue of the Galois correspondence whose proof follows in essentially the same way as the usual one. Following Szamuely's wonderful text "Galois Groups and Fundamental Groups," we will see how Riemann surfaces, differential equations, and algebraic curves also enter the picture, and moreover how many of these ideas are unified in Grothendieck's abstract conception of the algebraic fundamental group.
+                </p>
+                <p>
+                Familiarity with some modern algebra and point-set topology is preferable; the main mathematical objects of study are Galois groups and fundamental groups, so knowing something/anything about these terms will make the seminar much more motivated. There will be a lot of interesting math to learn at all levels, precisely because of the ubiquity of the fundamental group, and the seminar will be a great way to enjoy and relate seemingly disconnected areas of math.
+                </p>
+                <div class="recent-posts">
+                    <h1>References</h1>
+                    <p>
+                        Here are some excellent general references we may use in the seminar:
+                    </p>
+                    <ol>
+                    <ul>
+                        <li>
+                            Siegfried Bosch, <a href="https://link.springer.com/book/10.1007/978-3-319-95177-5">From the Viewpoint of Galois Theory</a>
+                        </li>
+                        <li>
+                            Tom Leinster, <a href="https://www.maths.ed.ac.uk/~tl/topology/topology_notes.pdf">course notes on general topology</a>
+                        </li>
+                        <li>
+                            Alexander Grothendieck and Michele Raynaud, <a href="https://arxiv.org/abs/math/0206203">Revêtements étales et groupe fondamental (SGA 1)</a>
+                        </li>
+                        <li>
+                            Tamás Szamuely, <a href="https://clio.columbia.edu/catalog/14084990?counter=2">Galois Groups and Fundamental Groups</a> (Columbia students should have access through CLIO!)
+                        </li>
+                    </ul>
+                    </ol>
+                </div>
+                <div class="recent-posts">
+                    <h1>Grading</h1>
+                    <p>
+                        Grading will be based on participation and effort: 
+                        
+                    </p>
+                    <ol>
+                    <ul>
+                        <li>
+                            You must attend every class unless you have a good reason (and you must tell me beforehand). If you do miss a class, please review the notes so you don't fall behind.
+                        </li>
+                        <li>
+                            At the end of each class, please submit to me (along with your name) two "things" you learned from the talk (c.f. <a href="https://math.stanford.edu/~vakil/threethings.html">Three Things</a>).
+                        </li>
+                        <li>
+                        Before your talk, send me your notes via email. Please TeX or write neatly so your classmates will be able to follow. Keep in mind that the quality of your notes will play a role in your grade.
+                        </li>
+                    </ul>
+                    </ol>
+                </div>
+                <div class="recent-posts">
+                    <h1>Expectations</h1>
+                    <p>
+                        Since we will not have any (mandatory) homework, it will be easy to get lost if you are not actively engaged. So if you are ever confused or need additional clarification at any point, please ask a question! Otherwise I will have to step in and start asking questions for the audience and the speaker, which is not fun for anyone.       
+                    </p>
+                    <p>
+                    Speakers are expected to put effort into making their lectures as clear and engaging as possible:
+                    </p>
+                    <ol>
+                    <ul>
+                        <li>
+                        It is a good idea to be as "honest" as possible (remember that the goal is to make sure everyone understands, not to make yourself look as smart as possible), i.e. to say which concepts or theorems were especially confusing and what resources (such as a book or Math Overflow) you found helpful.
+                        </li>
+                        <li>
+                        If you find a proof is hard to understand or simply too long, feel free to give a sketch instead. It is more important to understand the general idea than the tiny deatils (if you aren't sure what to do, you should always feel free to ask me).
+                        </li>
+                        <li>
+                        Some things are better said than written down (such as an off-hand remark that isn't crucial later).
+                        </li>
+                       
+                    </ul>
+                    </ol>
+                    <p>
+                    We will need to meet before your talk, and I expect most of your notes to be completed by then. I will also give you feedback on your talk by email.
+                    </p>
+                </div>
+                <div class="recent-posts">
+                    <h1>Schedule</h1>
+                    <p>
+                        We meet on Fridays from 5:30 to 7:30 in Room TBD.
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Date</th>
+                            <th>Speaker</th>
+                            <th>Abstract</th>
+                            <th>References</th>
+                        </tr>
+                        <tr>
+                            <td>01/27</td>
+                            <td>Matthew</td>
+                            <td><strong>Overview and fundamental groups:</strong> I will give a brief overview of the planned topics of the seminar. Then I will give a crash course on fundamental groups.  <a href="Docs/Intro.pdf">Notes</a></td>
+                            <td>
+                                [§2, Szamuely]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02/03</td>
+                            <td>Matthew</td>
+                            <td><strong>Crash course on fields:</strong> This week we will do a crash course on field extensions, which will be crucial for the upcoming lectures on Galois theory. Though the topic is generally a bit dry, I will try to motivate some aspects from a geometric perspective. <a href="Docs/Fields.pdf">Notes</a></td>
+                            <td>
+                                [§3, Bosch]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02/10</td>
+                            <td>Brian and Mrinalini</td>
+                            <td><strong>Field Extensions and Category Theory, Classical Galois Theory:</strong> This week we will wrap up our discussion on field extensions from last time, and then review some elementary category theory. We will also discuss the Galois correspondence and see some examples. <a href="Docs/2_10_Math_Seminar.pdf">Brian's notes</a>, <a href="Docs/Galois_Correspondence.pdf">Mrinalini's notes</a></td>
+                            <td>
+                                [§1.1-§1.3, Szamuely]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02/17</td>
+                            <td>Mrinalini</td>
+                            <td><strong>Infinite Galois theory</strong> This week we will begin discussing infinite Galois theory. This will include a discussion of inverse limits, profinite groups, and a bunch of examples. <a href="Docs/Fields.pdf">Notes</a></td>
+                            <td>
+                                [§1.5, Szamuely]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02/24</td>
+                            <td>Cordell and Alison</td>
+                            <td><strong>Infinite Galois theory continued</strong> This week we will finish discussing infinite Galois theory and the correct formulation of the Galois correspondence. Then, we will look at Grothendieck's reformulation of Galois theory and introduce the notion of a finite continuous G-set. <a href="Docs/Cordell.pdf">Cordell's notes</a>, <a href="Docs/GroGal.pdf">Alison's notes</td>
+                            <td>
+                                [§1.5-§1.6, Szamuely]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>03/24</td>
+                            <td>Rafay and Jacob</td>
+                            <td><strong>Grothendieck's Galois theory and covering spaces</strong> This week we will finish discussing  Grothendieck's reformulation and generalization of Galois theory (over fields), by replacing finite separable extensions with finite etale algebras and finite discrete transitive G-sets with finite discrete G-sets. Then, we'll start a new unit on covering spaces (and eventually lead up to a similar Galois correspondence). <a href="Docs/Covers.pdf">Jacob's notes</a></td>
+                            <td>
+                                [§1.6-2.2, Szamuely]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>03/31</td>
+                            <td>Jacob and Remy</td>
+                            <td><strong>Universal covers and the monodromy action</strong> This week we will show that taking the fiber over a point induces an equivalence of categories between covering spaces and sets with action of the fundamental group. Szamuely's proof uses the fact that the fiber functor is representable by the universal cover, whose construction and properties we will go over. 
+                            <td>
+                                [§2.3-2.4, Szamuely]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>04/7</td>
+                            <td>Matthew</td>
+                            <td><strong>Sheaves, local systems, and the Riemann-Hilbert correspondence</strong> This week we will informally introduce some topics that are somewhat beyond the scope of the class but are very closely related to what we've seen so far. The main goal is to describe another category that is equivalent to the covering spaces and to the representations of the fundamental group (namely locally constant sheaves). The Riemann-Hilbert correspondence (at least in the simplest example we'll discuss) will then relate these categories to a fourth category that is analytic in nature (namely holomorphic connections). <a href="Docs/Sheaves.pdf">Notes</a></td>
+                            <td>
+                                [§2.5-2.7, Szamuely]
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- end of content -->
+            <!-- sidebar -->
+
+            <div class="clear"></div>
+        </div>
+        <!-- end of main-wrapper -->
+        <footer class="site-footer">
+        <div class="site-footer-inner"><span>© 2026 Matthew Hase-Liu. Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.</span></div>
+    </footer>
+</body>
+</html>

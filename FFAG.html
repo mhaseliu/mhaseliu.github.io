@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    	<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+        <title>Function field arithmetic and geometry (Spring 2024)</title>
+        <meta
+            http-equiv="content-type"
+            content="application/xhtml+xml; charset=UTF-8"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="style.css"
+        />
+        <script defer src="site.js"></script>
+</head>
+    <body>
+        <!-- main-wrapper -->
+        <div id="main-wrapper" class="container_12">
+            <!-- header -->
+            <div id="header">
+                <div id="logo" class="grid_6">
+                    <!-- <p class="title"><a href="#">Welcome....</a></p>-->
+                </div>
+            </div>
+            <!-- end of header -->
+            <!-- sidebar -->
+            <div id="sidebar" class="grid_2">
+                <div class="sidebar-container">
+                <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open navigation"><span></span><span></span><span></span></button>
+                    <h3><a href="index.html">home</a></h3>
+                    <h3><a href="seminars.html" aria-current="page">seminars</a></h3>
+                    <h3><a href="teaching.html">teaching</a></h3>
+                    <h3><a href="writing.html">publications</a></h3>
+                    <h3><a href="https://github.com/mhaseliu">github</a></h3>
+                    <h3><a href="Docs/Hase-Liu_Academic_CV.pdf">academic cv</a></h3>
+                    <h3><a href="Docs/Hase-Liu_Resume.pdf">resume</a></h3>
+                    <button class="theme-toggle" type="button" aria-label="Use dark theme" title="Use dark theme">◐</button>
+                </div>
+            </div>
+            <!-- end of sidebar -->
+
+            <!-- content -->
+            <div id="content" class="grid_8">
+                <h1>Function field arithmetic and geometry</h1>
+               	<p> Organized by Kevin Chang, Matthew Hase-Liu, and Caleb Ji</p>
+                <p>
+                    This is a learning seminar broadly about problems and techniques using function fields in number theory and algebraic geometry. Examples of such include the Weil conjectures, exponential sums, homological stability, the Cohen-Lenstra heuristics, configuration spaces, the circle method, (more generally) geometric analytic number theory, and hopefully much more!
+                </p>
+		<div class="recent-posts">
+                    <h1>References</h1>
+                    <p>
+                        Here is a list of the references used in the seminar:
+                    </p>
+                    <ol>
+                    <ul>
+                        <li>
+                            H06,
+                            <a href="https://arxiv.org/pdf/math/0608718.pdf">Big symplectic or orthogonal monodromy modulo l</a>
+                        </li>
+                        <li>
+                            S18,
+                            <a href="https://arxiv.org/pdf/1809.05137.pdf">Square-root cancellation for sums of factorization functions over short intervals in function fields</a>
+                        </li>
+                        <li>
+                            S19,
+                            <a href="https://arxiv.org/abs/1907.08098">A geometric approach to the sup-norm problem for automorphic forms: the case of newforms on GL_2(F_q(T)) with squarefree level</a>
+                        </li>
+                        <li>
+                            CEF14,
+                            <a href="https://www.math.uchicago.edu/~farb/papers/FImod.pdf">FI-modules and stability for representations of symmetric groups</a>
+                        </li>
+                        <li>
+                            CFKRS02,
+                            <a href="https://arxiv.org/abs/math/0206018">Integral moments of L-functions</a>
+                        </li>
+                        <li>
+                            SST14,
+                            <a href="https://arxiv.org/abs/1401.5507">Families of L-functions and their Symmetry</a>
+                        </li>
+                        <li>
+                        CEF12, <a href="https://arxiv.org/abs/1204.4533">FI-modules and stability for representations of symmetric groups</a>
+                        </li>
+                        <li>
+                        HL24, <a href="https://arxiv.org/abs/2402.10498">A higher genus circle method and an application to geometric Manin's conjecture
+</a>
+                        </li>
+                        <li>
+                        B21, <a href="https://link.springer.com/book/10.1007/978-3-030-86872-7">Cubic Forms and the Circle Method 
+</a>
+                        </li>
+                    </ul>
+                    </ol>
+                </div>
+                    
+                <div class="recent-posts">
+                    <h1>Schedule</h1>
+                    <p>
+                        We meet on Mondays from 5:30 to 6:30 in Room 622.
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Date</th>
+                            <th>Speaker</th>
+                            <th>Abstract</th>
+                            <th>References</th>
+                        </tr>
+                        <tr>
+                            <td>01/29</td>
+                            <td>Kevin</td>
+                            <td><strong>Big symplectic or orthogonal monodromy mod l:</strong> This talk will be about Hall's 2008 paper of the same name. I'll explain how a simple criterion can be used to prove big mod l monodromy for families of hyperelliptic curves and certain quadratic twist families of elliptic surfaces. I'll also talk about some applications of big mod l monodromy to function field arithmetic (e.g. Cohen-Lenstra heuristics, inverse Galois problem).</td>
+                            <td>
+                                H06
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02/05</td>
+                            <td>Matthew</td>
+                            <td><strong>Square-root cancellation for sums of factorization functions over short intervals in function fields:</strong> I'll discuss Sawin's paper on estimates for sums of the divisor function (and related arithmetic functions) in short intervals in the function field setting. When the characteristic is large, these estimates approach square-root cancellation and are obtained from bounding the number of points on a certain variety, which are, in turn, controlled by certain cohomology groups.</td>
+                            <td>
+                                S18
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02/12</td>
+                            <td>Caleb</td>
+                            <td><strong>The Tate conjecture and BSD for function fields:</strong> We give an overview of classical work of Tate and Grothendieck which relate the truth of the Tate conjecture for an elliptic surface over F_q to the finiteness of its Brauer group, BSD for the generic fiber, and the finiteness of the Tate-Shafarevich group of the generic fiber.</td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02/19</td>
+                            <td>Kevin</td>
+                            <td><strong>A degeneration approach to big monodromy:</strong> In this talk, I'll explain how big monodromy can be proven using degeneration techniques. I'll cover the examples of families of hyperelliptic and trielliptic curves studied by Achter-Pries.</td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02/26</td>
+                            <td>Fan Zhou</td>
+                            <td><strong>FI-modules (and cohomology of moduli spaces):</strong> We roughly follow the famous paper of Church-Ellenberg-Farb on FI-modules and representation stability, with a view towards the Brundan-Stroppel formalism. The speaker’s mathematical abilities permitting, we will provide an application to the cohomology of moduli spaces.</td>
+                            <td>
+				CEF12
+                            </td>
+                        </tr>
+                       <tr>
+                            <td>03/04</td>
+                            <td>Amal Mattoo</td>
+                            <td><strong>A higher genus circle method:</strong> Browning and Vishe used the Hardy-Littlewood circle method to show the space of rational curves on smooth hypersurfaces of low degree is irreducible and of the expected dimension. We reinterpret the circle method geometrically and prove a generalization for fixed smooth projective curves.</td>
+                            <td>
+				HL24
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>03/18</td>
+                            <td>Daniel Litt</td>
+                            <td><strong>Some questions about 2x2 matrices OR Big monodromy for Prym representations OR Algebraic solutions to non-linear algebraic ODEs:</strong> I will speak on one of the following three topics, depending on audience interest. Please come prepared to vote!
+(1) Some questions about 2x2 matrices: What are the finite orbits of the natural (Hurwitz) braid group action on conjugacy classes of n-tuples of 2x2 matrices? This question dates back to the beginning of the 20th century, in the study of algebraic solutions to the Painlevé VI equation, and its generalization, the Schlesinger system. I'll explain how to answer it in many cases of interest, using algebro-geometric techniques. This is joint work with Lam and Landesman.
+(2) Big monodromy for Prym representations: How does the fundamental group of the moduli space of curves of genus g act on the cohomology of covers of a curve? I'll explain an answer to this question when g is large compared to the degree of the cover obtained in joint work with Landesman and Sawin.
+(3) Algebraic solutions to non-linear algebraic ODEs: The Grothendieck-Katz p-curvature conjecture gives a (conjectural) arithmetic criterion by which one check if the solutions to an algebraic linear ODE are algebraic functions. I'll explain a version of this conjecture for non-linear ODEs, and some evidence for it, obtained in joint work with Lam.</td>
+                            <td>
+				
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>03/25</td>
+                            <td>Kevin Chang</td>
+                            <td><strong>Hurwitz space compactifications and arithmetic statistics:</strong> In recent years, Hurwitz spaces have seen many applications to arithmetic statistics, being used to prove counts in the function field setting and make conjectures in the number field setting. In this talk, I'll discuss the connection between Hurwitz space compactifications and prior techniques in arithmetic statistics for counting number fields.</td>
+                            <td>
+				
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>04/01</td>
+                            <td>Matthew Hase-Liu</td>
+                            <td><strong>Diagonal cubic forms over function fields:</strong> I'll slowly explain how the circle method can be used to prove the existence of non-trivial zeroes on a cubic form in nine variables over a function field.</td>
+                            <td>
+				B21
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>04/08</td>
+                            <td>Kevin Chang</td>
+                            <td><strong>Prehomogeneous vector spaces and Nichols algebras:</strong> I'll discuss how two vastly different types of objects are related by function field arithmetic statistics.</td>
+                            <td>
+				
+                            </td>
+                        </tr>
+                         <tr>
+                            <td>04/15</td>
+                            <td>Andrew Kobin</td>
+                            <td><strong>A modular approach to supersingular mass formulas:</strong> Supersingular abelian varieties are a rich and  well-studied family of abelian varieties in characteristic p that have no analogue in characteristic 0. Using point-counting techniques, it is possible to enumerate all isomorphism classes of supersingular abelian varieties of a fixed dimension over the algebraic closure of a finite field. For example, in dimension g = 1, there are approximately \frac{p - 1}{12} supersingular elliptic curves over\overline{\mathbb{F}}_{p} for any prime p. In this talk, I will describe a geometric approach to this problem, using mod p modular forms, which recovers known formulas in dimensions g\leq 2. Parts of this talk are joint work with Santiago Arango-Piñeros and Sun Woo Park, and separately with Eran Assaf.</td>
+                            <td>
+				
+                            </td>
+                        </tr>
+                         <tr>
+                            <td>04/22</td>
+                            <td>Jakob Glas</td>
+                            <td><strong>Canonical singularities on moduli spaces of rational curves via the circle method:</strong>  I will explain how methods from analytic number theory can shed light on problems in algebraic geometry. In particular, I will show how a suitable version of the circle method can be used to establish that moduli spaces of rational curves contained in a smooth hypersurface have at worst canonical singularities under suitable assumptions on the degrees and the dimensions.</td>
+                            <td>
+				
+                            </td>
+                        </tr>
+                         <tr>
+                            <td>04/29</td>
+                            <td>Leonhard Hochfilzer</td>
+                            <td><strong>Rational points on del Pezzo surfaces of low degree:</strong> In joint work with Jakob Glas, we prove upper bounds for the number of rational points on del Pezzo surfaces of degree ≤5 using a hyperplane section argument. Our work is valid over all global fields excluding characteristic 2 and 3. Over number fields our results are conditional on a hypothesis concerning the growth of the rank of elliptic curves in terms of the conductor. En passant we also produce new (unconditional) upper bounds for del Pezzo surfaces of degree five which admit a conic bundle structure.</td>
+                            <td>
+				
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- end of content -->
+            <!-- sidebar -->
+
+            <div class="clear"></div>
+        </div>
+        <!-- end of main-wrapper -->
+        <footer class="site-footer">
+        <div class="site-footer-inner"><span>© 2026 Matthew Hase-Liu. Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.</span></div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    	<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+        <title>Exponential sums and equidistribution (Spring 2025)</title>
+        <meta
+            http-equiv="content-type"
+            content="application/xhtml+xml; charset=UTF-8"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="style.css"
+        />
+        <script defer src="site.js"></script>
+</head>
+    <body>
+        <!-- main-wrapper -->
+        <div id="main-wrapper" class="container_12">
+            <!-- header -->
+            <div id="header">
+                <div id="logo" class="grid_6">
+                    <!-- <p class="title"><a href="#">Welcome....</a></p>-->
+                </div>
+            </div>
+            <!-- end of header -->
+            <!-- sidebar -->
+            <div id="sidebar" class="grid_2">
+                <div class="sidebar-container">
+                <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open navigation"><span></span><span></span><span></span></button>
+                    <h3><a href="index.html">home</a></h3>
+                    <h3><a href="seminars.html" aria-current="page">seminars</a></h3>
+                    <h3><a href="teaching.html">teaching</a></h3>
+                    <h3><a href="writing.html">publications</a></h3>
+                    <h3><a href="https://github.com/mhaseliu">github</a></h3>
+                    <h3><a href="Docs/Hase-Liu_Academic_CV.pdf">academic cv</a></h3>
+                    <h3><a href="Docs/Hase-Liu_Resume.pdf">resume</a></h3>
+                    <button class="theme-toggle" type="button" aria-label="Use dark theme" title="Use dark theme">◐</button>
+                </div>
+            </div>
+            <!-- end of sidebar -->
+
+            <!-- content -->
+            <div id="content" class="grid_8">
+                <h1>Exponential sums and equidistribution</h1>
+               	<p> Organized by Matthew Hase-Liu and Caleb Ji</p>
+                <p>
+                    This is a learning seminar broadly about the sheaf-theoretic approach to equidistribution results for families of exponential sums over finite fields. For families parametrized by a variety, this is closely related to understanding the geometric monodromy groups of the corresponding sheaves. Katz famously proved an average version of the Sato-Tate law for Kloosterman sums in several variables and developed a framework to study exponential sums/arithmetic Fourier transforms of trace functions of perverse sheaves on $\mathbb{G}_a$. Katz and later Forey, Fresan, and Kowalski extended these ideas to families parametrized by multiplicative characters of the points of any connected commutative algebraic group by exploiting the formalism of Tannakian categories and Sawin's quantitative sheaf theory. </p> 
+                 <p>We will roughly follow parts of "Arithmetic Fourier transforms over finite fields" by Forey, Fresan, and Kowalski, as well as "Gauss Sums, Kloosterman Sums, and Monodromy Groups" by Katz. Ideally talks will be relatively self-contained, aside from the first few establishing some technical background.</p>  
+                </p>
+		<div class="recent-posts">
+                    <h1>References</h1>
+                    <p>
+                        Here is a list of the references used in the seminar:
+                    </p>
+                    <ol>
+                    <ul>
+                        <li>
+                            FFK, <a href="https://arxiv.org/abs/2109.11961">Arithmetic Fourier transforms over finite fields: generic vanishing, convolution, and equidistribution</a>
+                        </li>
+                        
+                    </ul>
+                    </ol>
+                </div>
+                    
+                <div class="recent-posts">
+                    <h1>Schedule</h1>
+                    <p>
+                        We meet on Thursdays from 5:30 to 7:00 in Room 528.
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Date</th>
+                            <th>Speaker</th>
+                            <th>Abstract</th>
+                            <th>References</th>
+                        </tr>
+                        <tr>
+                            <td>01/30</td>
+                            <td>Matthew Hase-Liu</td>
+                            <td><strong>Overview of seminar and introduction to equidistribution theorems:</strong> I'll give a motivated introduction to the definition of equidistribution and then discuss some examples related to exponential sums. These ideas go hand in hand with some of the greatest developments in algebraic geometry, and I will try to explain a small part of this story.</td>
+                            <td>
+                                <a href="Docs/ESE.pdf">Notes</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02/06</td>
+                            <td>Caleb Ji</td>
+                            <td><strong>Deligne's equidistribution theorem:</strong> Deligne's equidistribution theorem states that, under certain natural conditions, the Frobenius elements of Galois representations over function fields are equidistributed in a maximal compact subgroup of the associated monodromy group.  In this talk we will prove this theorem and give some applications.</td>
+                            <td>
+                                <a href="Docs/Exponential_sums.pdf">Notes</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02/13</td>
+                            <td>Kevin Chang</td>
+                            <td><strong>Gauss sums, Kloosterman sums, and Kloosterman sheaves:</strong> We will show how to geometrize exponential sums using the Grothendieck trace formula and the l-adic Fourier transform.</td>
+                            <td>
+                                <a href="Docs/ESE_02_13.pdf">Notes</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02/20</td>
+                            <td>Vidhu Adhihetty</td>
+                            <td><strong>Convolution:</strong> We will introduce the general concept of convolution of sheaves on G_m, and state the main theorem regarding this operation. We will aim to give proofs of some parts of the theorem, and then use convolution to define Kloosterman sheaves and explore some of their properties.</td>
+                            <td>
+                                <a href="Docs/Vidhu.pdf">Notes</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02/27</td>
+                            <td>Fan Zhou</td>
+                            <td><strong>Tannakian categories:</strong> We discuss some basics of Tannakian categories following Deligne and Milne's article.</td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>03/06</td>
+                            <td>Sofia Wood</td>
+                            <td><strong>Equidistribution of Kloosterman angles:</strong> We introduce Kloosterman angles and state and reformulate an equidistribution theorem for them.</td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>03/13</td>
+                            <td>Caleb Ji</td>
+                            <td><strong>Global monodromy of Kloosterman sheaves:</strong> Deligne's equidistribution applied to Kloosterman sheaves gives equidistribution of Kloosterman angles once the monodromy groups of the Kloosterman sheaves is computed. We review this setup and outline the computation of these monodromy groups.  This turns out to be a lengthy Lie theoretic computation in which G_2 makes an unexpected appearance.</td>
+                            <td>
+                                <a href="Docs/Kloosterman-monodromy.pdf">Notes</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>03/27</td>
+                            <td>Jiahe Shen</td>
+                            <td><strong>Where are the zeroes of a random p-adic polynomial?:</strong> We study the distribution of the roots of a random p-adic polynomial in an algebraic closure of Q𝑝. We prove that the mean number of roots generating a fixed finite extension K of Q𝑝 depends mostly on the discriminant of K, an extension containing fewer roots when it becomes more ramified. We prove further that for any positive integer r, a random p-adic polynomial of sufficiently large degree has about r roots on average in extensions of degree at most r.</td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>04/03</td>
+                            <td>Caleb Ji</td>
+                            <td><strong>Tannakian monodromy groups and the Shafarevich conjecture:</strong> The Shafarevich conjecture for a given set of varieties over a number field says that only finitely many of them have good reduction outside a finite set of primes.  Lawrence and Venkatesh initiated an approach to these questions using p-adic period mappings and monodromy calculations.  In this talk I will explain how Tannakian monodromy groups can be fused with this strategy to achieve such results for certain classes of hypersurfaces in higher-dimensional tori.</td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>04/10</td>
+                            <td>Kevin Chang</td>
+                            <td><strong>Rigid local systems:</strong> We will give an overview of the theory of rigid local systems: Katz's classification, middle convolution, etc.</td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>04/17</td>
+                            <td>Matthew Hase-Liu</td>
+                            <td><strong>Convolution and applications to Evans and Rudnick sums:</strong> I will discuss work of Katz on applying ideas from convolution to further equidistribution questions with applications to Evans and Rudnick sums.</td>
+                            <td>
+                                <a href="Docs/ESE_Conv.pdf">Notes</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>04/24</td>
+                            <td>Caleb Ji</td>
+                            <td><strong>The Grothendieck-Katz p-curvature conjecture I:</strong> The p-curvature conjecture predicts when solutions to algebraic differential equations are algebraic.  This conjecture can be also be formulated in terms of the finiteness of the monodromy groups of the differential equation.  We will review these formulations and describe Katz's proof of the conjecture for Picard-Fuchs equations.
+</td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>05/01</td>
+                            <td>Caleb Ji</td>
+                            <td><strong>The Grothendieck-Katz p-curvature conjecture II:</strong> In 1982, Katz introduced a conjecture on the Lie algebra of differential Galois groups that would imply the classical p-curvature conjecture.  Very recently, Lam and Litt gave a strengthening of the p-curvature conjecture to non-linear differential equations.  We will explain both these new conjectures.</td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>03/27</td>
+                            <td>Kevin</td>
+                            <td><strong>Rigid local systems:</strong></td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>05/02</td>
+                            <td>Amadou</td>
+                            <td>Quantitative sheaf theory and applications to equidistribution<strong>:</strong></td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- end of content -->
+            <!-- sidebar -->
+
+            <div class="clear"></div>
+        </div>
+        <!-- end of main-wrapper -->
+        <footer class="site-footer">
+        <div class="site-footer-inner"><span>© 2026 Matthew Hase-Liu. Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.</span></div>
+    </footer>
+</body>
+</html>
