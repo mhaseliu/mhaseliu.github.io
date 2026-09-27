@@ -2,7 +2,7 @@
     --background: #ffffff;
     --text: #111111;
     --text-light: #828282;
-    --theme: #b509ac;
+    --theme: #7538c7;
     --divider: rgba(0, 0, 0, 0.11);
     --footer-bg: #1c1c1d;
     --footer-text: #e8e8e8;
@@ -14,7 +14,7 @@ html[data-theme="dark"] {
     --background: #1c1c1d;
     --text: #e8e8e8;
     --text-light: #c6c6c6;
-    --theme: #2698ba;
+    --theme: #ba91ff;
     --divider: #424246;
     --footer-bg: #e8e8e8;
     --footer-text: #1c1c1d;
@@ -267,10 +267,10 @@ li {
     margin: 2rem 0 1rem;
     padding-top: 1rem;
     border-top: 1px solid var(--divider);
-    color: var(--divider);
-    font-size: 1.55rem !important;
-    font-weight: 400;
-    text-align: right;
+    color: var(--theme);
+    font-size: 1.05rem !important;
+    font-weight: 500;
+    text-align: left;
 }
 
 .archive-list {
