@@ -172,11 +172,6 @@ li {
     font-weight: 700;
 }
 
-.sidebar-container h3 a.nav-document {
-    color: var(--theme);
-    font-weight: 600;
-}
-
 .nav-toggle {
     display: none;
     width: 2.75rem;
