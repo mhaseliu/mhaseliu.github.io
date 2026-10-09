@@ -172,6 +172,11 @@ li {
     font-weight: 700;
 }
 
+.sidebar-container h3 a.nav-document {
+    color: var(--theme);
+    font-weight: 600;
+}
+
 .nav-toggle {
     display: none;
     width: 2.75rem;
@@ -297,6 +302,32 @@ li {
 .archive-list .meta {
     color: var(--text-light);
     font-size: 0.85rem;
+}
+
+/* Featured research project */
+.featured-project {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 220px;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.featured-project h3 {
+    margin: 0 0 0.75rem;
+}
+
+.featured-project .project-preview {
+    margin: 0;
+}
+
+@media (max-width: 700px) {
+    .featured-project {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .featured-project .project-preview {
+        width: min(100%, 320px);
+    }
 }
 
 /* Linked project screenshots */
