@@ -299,6 +299,26 @@ li {
     font-size: 0.85rem;
 }
 
+/* Linked project screenshots */
+.project-preview {
+    display: block;
+    margin: 1.25rem 0 2rem;
+    overflow: hidden;
+    border: 1px solid var(--divider);
+    border-radius: 6px;
+}
+
+.project-preview img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.project-preview:focus-visible {
+    outline: 2px solid var(--theme);
+    outline-offset: 4px;
+}
+
 /* Publication styling modeled on the reference site. */
 .publications {
     margin-top: 2rem;
